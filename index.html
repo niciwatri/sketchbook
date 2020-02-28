@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>IAD Code Design Experiment</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script type="text/javascript" src="main.js"></script>
+	<link rel="stylesheet" href="https://use.typekit.net/lgw8fuj.css">
+</head>
+
+<body>
+
+
+<svg class='crop-shapes'>
+
+    <defs>
+        <pattern id="img1" patternUnits="userSpaceOnUse" width="100%" height="650">
+            <image class='twombly' xlink:href="/img/muster.jpg" x="0" y="-120"
+                width="380" height="267" />
+        </pattern>
+
+    </defs>
+   
+  <circle class='circ' cx="50" cy="50" r="50" fill="url(#img1)" filter="url(#sparklin)" onmouseover="evt.target.setAttribute('opacity', '0.5');"
+13
+onmouseout="evt.target.setAttribute('opacity','1)');"/>
+  
+  <rect x="110" y="0" width="100" height="100" stroke="none" fill="url(#img1)" filter="url(#sparklin)"/>
+  
+  <polygon x="10" points="270,0  220,100 320,100" fill="url(#img1)" filter="url(#sparklin)"/>
+  
+</svg>
+
+
+
+<h1 class="hintergrund">Nicole Watrinet</h1>
+
+<div id="app-cover">
+  <div id="app">
+    <div id="circle">
+      <form method="get" action="" id="form">
+        <input type="text" name="q" id="search-input" placeholder="Search" autocomplete="off" required>
+      </form>
+      <div id="r-btn"></div>
+    </div>
+    <div id="c-btn"></div>
+    <div id="init-button"></div>
+    <input type="submit" id="submit-button" form="form">
+  </div>
+</div>
+<a href="https://dribbble.com/shots/5323641-Search-Input-Box-With-Micro-Interactions" target="_blank" id="dribbble"><i class="fab fa-dribbble"></i></a>
+
+
+<div class="wrapper">
+  <div class="one cell">Holidays</div>
+  <div class="two cell">Two</div>
+  <div class="three cell">Three</div>
+  <div class="four cell">Four</div>
+  <div class="five cell">Five</div>
+  <div class="six cell">Six</div>
+  <div class="seven cell">Holidays</div>
+  <div class="eight cell">Two</div>
+  <div class="nine cell">Three</div>
+  <div class="ten cell">Four</div>
+  <div class="eleven cell">Five</div>
+  <div class="twelve cell">Six</div>
+</div>
+
+
+
+</body>
+
+</html>
